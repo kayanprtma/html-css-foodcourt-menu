@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+head {
+    font-size: 90px;
+}
+
+caption {
+    color: #f0f0f0;
+}
+
+body {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.header {
+
+    text-align: center;
+    color: aliceblue;
+    margin: 40px;
+    text-shadow: 0px 0px 5px black;
+
+    h1 {
+        font-size: 40px;
+    }
+}
+
+table {
+
+    border: #fff6;
+    background-color: #fff5;
+
+    padding: 20px;
+    width: 50vw;
+    text-align: center;
+    vertical-align: center;
+
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: .8rem;
+
+    overflow: hidden;
+
+    margin-bottom: 20px;
+}
+
+caption {
+
+    margin: 5px;
+    padding: 0;
+}
+
+th, td {
+    border: #fff6;
+    width: 100px;
+    align-items: center;
+}
+
+th {
+
+    background-color: #fff6;
+    border-radius: .4rem;
+    padding: 10px;
+
+}
+
+td {
+
+    background-color: #fff6;
+    border-radius: .4rem;
+    padding: 10px;
+
+}
+
+td img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+}
+
+footer {
+    margin: 50px;
+    padding: 0;
+}
+
+.website {
+    color: rgb(245, 245, 245);
+    font-size: 14px;
+    text-shadow: 0px 0px 5px black;
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:visited {
+    color: whitesmoke;
+}
